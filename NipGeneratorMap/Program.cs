@@ -36,7 +36,7 @@ namespace NipGeneratorMap
                 bac
                 dop
 
-            Uzupelnij istniejace klasy, aby odczytywaly pliki map Acme i Mapex zgodnie z instrukcja:
+            Stworz nastepujace klasy (zaimplementuj istniejace interfejsy), aby odczytywaly pliki map Acme i Mapex zgodnie z instrukcja:
 
             - stworz dwie klasy, majace konwertowac znaki z plikow obu firm i zwracac wysokosc (liczbe od 0 - 12). 
                 Klasy maja implementowac IKonwerterZnakuNaWysokosc. Nazawy np. KonwerterZnakuNaWysokoscAcme, KonwerterZnakuNaWysokoscMapex
