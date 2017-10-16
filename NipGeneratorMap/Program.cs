@@ -40,7 +40,7 @@ namespace NipGeneratorMap
 
             - stworz dwie klasy, majace konwertowac znaki z plikow obu firm i zwracac wysokosc (liczbe od 0 - 12). 
                 Klasy maja implementowac IKonwerterZnakuNaWysokosc. Nazawy np. KonwerterZnakuNaWysokoscAcme, KonwerterZnakuNaWysokoscMapex
-            - stworz klase, ktora bedzie dostarczala wiadomosci z pliku (np. PlikowyDostarczycielWysokosci), ta klasa implementowac IDostarczycielWysokosci,
+            - stworz klase, ktora bedzie dostarczala wysokosci z pliku (np. PlikowyDostarczycielWysokosci), ta klasa implementowac IDostarczycielWysokosci,
                 w konstruktorze ma przyjmowac sciezke do pliku (string) oraz ma byc niezalezna od konkretnej firmy (musi przyjmowac konwerter - rowniez w konstruktorze).
                 Klasa ma czytac podany plik i zwracac int[][] wartosci wysokosci (patrz IDostarczycielWysokosci)
             - stworz klase konwertujaca wysokosc (int) na znak z tablicy Wysokosci.ZnakiWysokosci (ma implementowac IKonwerterWysokosciNaZnak).
